@@ -7,8 +7,13 @@ from py_umea_kommun_water_temperature import *
 
 def setup_platform(hass, config, add_entities, discovery_info=None):
     """Set up the sensor platform."""
-    add_entities([
-                 ,
+    add_entities([ BettnessandWaterTemperature()
+                 , BolesholmarnaWaterTemperature()
+                 , KarleksvikenWaterTemperature()
+                 , LankeboWaterTemperature()
+                 , LjumvikenWaterTemperature()
+                 , StocksjonWaterTemperature()
+                 , NydalabadetWaterTemperature()
                  ])
 
 
