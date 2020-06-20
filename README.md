@@ -1,0 +1,1 @@
+# sensor.nydala_water_temperature
