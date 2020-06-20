@@ -1,0 +1,8 @@
+{
+  "domain": "umea_kommun_water_temperature",
+  "name": "The water temperature for different bathing places measured by Umeå kommun",
+  "documentation": "https://github.com/chrisbloecker/sensor.umea_kommun_water_temperature",
+  "dependencies": [],
+  "codeowners": ["@chrisbloecker"],
+  "requirements": ["https://github.com/chrisbloecker/py-umea-kommun-water-temperature/archive/0.1.0.zip#py-umea-kommun-water-temperature==0.1.0"]
+}
